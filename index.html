@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOWNEX</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Content -->
+    <main id="townex">
+
+        <!-- Main banner -->
+        <section id="main" class="h-screen bg-main flex items-center justify-center">
+            <picture class="logo overflow-hidden">
+                <source srcset="./assets/img/townex.webp" type="image/webp">
+                <img class="relative" src="./assets/img/townex.png" alt="TOWNEX">
+            </picture>
+        </section>
+
+        <!-- Slogan -->
+        <section id="slogan" class="h-screen flex items-center justify-center px-4">
+            <h1 class="uppercase text-center overflow-hidden">
+                Expertos en desarrollo inmobiliario
+            </h1>
+        </section>
+
+        <!-- Building -->
+        <section id="building" class="h-screen overflow-hidden relative">
+            <div class="content">
+                <h2 class="font-bold">Empresa mexicana</h2>
+                <p class="lowercase font-bold">con experiencia en desarrollo inmobiliario</p>
+                
+                <p class="text-justify mt-4">
+                    Impulsamos el crecimiento y brindando soluciones
+                    de manera sustentable generando valor y seguridad
+                    a inversores.
+                </p>
+            </div>
+
+            <div class="bg-img absolute"></div>
+        </section>
+
+        <!-- Video -->
+        <section id="video" class="h-screen">
+            <video class="object-cover" autoplay muted loop>
+                <source src="./assets/video/masaya_video.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+
+    <!-- GSAP Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!--Custom Scripts  -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
